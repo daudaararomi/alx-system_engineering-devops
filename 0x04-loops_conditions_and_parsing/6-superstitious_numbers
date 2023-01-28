@@ -2,7 +2,7 @@
 # prints number 1-20 with bad luck statements for 4, 9, and 17
 
 count=1
-while [ $count -le 20]
+while [ $count -le 20 ]
 do
     echo $count
     case $count in
